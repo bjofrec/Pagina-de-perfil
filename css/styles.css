@@ -1,0 +1,203 @@
+.contenedor {
+    width: 1500px;
+}
+/*
+.encabezado {
+
+}
+*/
+.primercuadro {
+
+    height: 425px;
+    display: flex;
+    position: relative;
+}
+.segundocuadro {
+    height: 400px;
+    display: flex;
+    position: relative;
+}
+.uno{
+    height: 370px;
+    width: 600px;
+    position: absolute;
+    left: 200px;
+    top: 50px
+}
+.dos{
+    border: 3px solid gray;
+    height: 200px;
+    width: 350px;
+    position: absolute;
+    left: 850px;
+    top: 50px
+}
+.tres{
+    border: 3px solid gray;
+    height: 370px;
+    width: 600px;
+    position: absolute;
+    left: 200px;
+    top: 50px;
+    font-size: 20px;
+}
+.cuatro {
+    border: 3px solid gray;
+    height: 450px;
+    width: 350px;
+    position: absolute;
+    left: 850px;
+    bottom: 75px
+}
+/* aca va la barra de navegacion*/
+.encabezado {
+    background-color:rgb(46, 46, 46);
+    height: 50px;
+    padding: 5px;
+    padding-right: 10px;
+    display: flex;
+   align-items: center;
+   position: relative;
+}
+.nav-title {
+    color: white;
+    font-family: cursive;
+    position: absolute;
+    left:30px;
+}
+.nav-links {    
+    display: flex;
+    position: absolute;
+    left: 150px;
+}
+.orden {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+    font-size: larger;
+    font-family: cursive;
+}
+.orden1 {
+    display: flex;
+    position: relative;
+}
+.orden2 {
+    position: absolute;
+    left: 500px;
+}
+
+a {
+    color: gray;
+    text-decoration-line: none;
+}
+.active {
+    color: white;
+
+}
+.btn {
+    background-color: deepskyblue;
+    border-radius: 0;
+    border: 0px;
+    width: 120px;
+    height: 30px;
+    font-size: 85%;
+    font-family: cursive;
+    box-shadow: 5px 6px;
+}
+/* .---------------------------------------------------------- */
+.contenedor1 {
+    width: 744px;
+    font-family: 'Roboto', sans-serif;
+    height: 500px;
+    width: 600px;
+
+}
+.encabezado1 {
+    background-color: cadetblue;
+    position: relative;
+    height: 100px;
+}
+.Imagen {
+    width: 100px;
+    position: absolute;
+    top: 50px;
+    left: 35px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.cuerpo {
+    padding-top: 35px;
+    padding-left: 35px;
+    border: 3px solid gray;
+    padding-bottom: 50px;
+
+}
+.editprofile {
+    color: royalblue;
+    text-decoration-line: underline;
+}
+
+.logo {
+    width: 15px;
+    margin-right: 15px;
+}
+.cualidades {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* ------------------ solicitudes -------------------*/
+
+.a {
+    height: 70px;
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+.bloque {
+    position: absolute;
+    left: 20px; 
+}
+.numeroDeSolicitudes {
+    border: 1px solid white;
+    background-color: darkgray;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;    
+}
+.bloque-1 {
+    font-size: 20px;
+    color: whitesmoke
+}
+.b {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    
+}
+.logopeticion {
+    height: 40px;
+}
+.logoaceptar {
+    height: 40px;
+}
+.logorechazar {
+    height: 40px;
+
+}
+
+.c {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+}

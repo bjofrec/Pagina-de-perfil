@@ -1,0 +1,63 @@
+.cabeza {
+    height: 90px;
+    background-color: rgb(46, 46, 46);
+    color: whitesmoke;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.estudio {
+    margin: 15px;
+    padding-left: 10px;
+}
+
+.x {
+    height: 70px;
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+.bloque-3 {
+    position: absolute;
+    left: 20px;
+    top: 15px
+}
+.cantidadAmigos {
+    border: 1px solid white;
+    background-color: darkgray;
+    height: 40px;
+    width: 80px;
+    border-radius:50%;
+    text-align: center;
+    font-size: 25px;  
+}
+.bloque-4 {
+    padding-left: 40px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.friends {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+.nombreAmigo {
+    padding-left: 50px;
+}
+
+.z {
+    border-top: 3px solid gray;
+    display: flex;
+}
+#edit {
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 25px;
+}
